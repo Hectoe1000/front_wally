@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    height: 0px;
+ margin: 0px;
+ padding: 0px;
+}
+
+ul{
+    list-style-type:none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10px;
+}
+.info-items{
+    font-size:1rem ;
+    font-family:"Bebas Neue", sans-serif ;
+    display: flex;
+    align-items: center;
+}
+
+.Navbar{
+    background-color:rgb(169, 29,32,0.8);
+    
+}
+
+.nav-link{
+    color: white;
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.search{
+    background-color: white;
+}
+.logo{
+ height: 4rem;
+}
+
+.icon-small{
+    font-size: 2rem;
+    margin-top: 0em;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black{
+    color: black;
+}
+
+.category-salchipapa{
+    position: relative;
+    width: 30%;
+    height: 30%;
+}
+
+.imagen{
+display: block;
+}
+
+.superpuesto{
+    position: absolute;
+    top: 50%; /* Centra el texto verticalmente */
+    left: 20%; /* Centra 2l texto horizontalmente */
+    transform: translate(-50%, -50%);
+}
