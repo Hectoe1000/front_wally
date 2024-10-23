@@ -1,0 +1,74 @@
+
+  <!-- Description Nabvar -->
+  <div class="container my-1">
+    <ul class="d-flex justify-content-around ">
+      <li class="info-items"><img class="logo"
+          src="https://res.cloudinary.com/dif6hsyhq/image/upload/v1728867846/image-removebg-preview_1_zwjmew.png"></li>
+      <li class="d-flex flex-row info-items"><i class="fa-regular fa-clock icon-small"></i>Horarios<br>L-V:10am a 10 pm
+      </li>
+      <li class="info-items">  
+         <!-- Button trigger modal -->
+        <button type="button" class="info-items fs-5 sesion" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            INICIAR SESION
+          </button></li>
+    </ul>
+  </div>
+  <!-- End description Nabvar -->
+
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg Navbar">
+    <div class="container d-flex justify-content-center">
+
+      <!-- <div class="collapse navbar-collapse d-flex justify-content-center "  id="navbarSupportedContent" > permite la caida de la hamburguesa  -->
+      <ul class="navbar-nav mb-lg-0">
+        <li class=" nav-item mx-5">
+          <a class=" nav-link" href="#">Navbar</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" href="#">¿Quienes Somos?</a>
+        </li>
+        <li class="nav-item mx-5">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success search" type="submit">Buscar</button>
+          </form>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" routerLink="./local">Nuestros Locales</a>
+        </li>
+        <li class="nav-item mx-5">
+          <a class="nav-link" routerLink="/ayuda">Ayuda</a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!-- End Navbar -->
+  <!-- Categoria -->
+        <ul class="d-flex flex-row justify-content-around mt-3">
+          <li><a class="nav-link black" href="#"><img src="" alt=""><span class="fs-3">Promociones</span></a></li>
+          <li><a class="nav-link black" href="#"><img src="" alt=""><span class="fs-3">Duos</span></a></li>
+          <li><a class="nav-link black" href="#"><img src="" alt=""><span class="fs-3">Combos</span></a></li>
+          <li><a class="nav-link black" href="#"><img src="" alt=""><span class="fs-3">Bebidas</span></a></li>
+          <li><a class="nav-link black" href="#"><img src="" alt=""><span class="fs-3">Complementos</span></a></li>
+        </ul>
+    <!-- start Modal -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end Modal -->
