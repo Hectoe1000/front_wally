@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    height: 0px;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+
+html{
+    background-image: image-set("https://res.cloudinary.com/dif6hsyhq/image/upload/v1729745345/fondo_lmk7px.jpg");
+    background-size: cover;
+ 
+}

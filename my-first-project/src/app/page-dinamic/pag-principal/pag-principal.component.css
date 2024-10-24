@@ -1,0 +1,19 @@
+.nav-link{
+    color: rgb(241, 209, 209);
+    font-family:"Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+.black{
+    color: black;
+}
+
+ul{
+    list-style-type:none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 10px;
+}
+
+i{
+    color: aliceblue;
+}
